@@ -6,6 +6,7 @@
     "build": "tsc -b",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
+    "vercel-build": "tsc",
     "format": "prettier --write ."
   },
   "keywords": [],
